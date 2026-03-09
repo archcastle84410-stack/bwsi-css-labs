@@ -9,6 +9,8 @@ and prints the result to the terminal window.
 
 """
 
+
+
 def simple_calculator(operation: str, num1: float, num2: float) -> float:
     """
     Function that takes in two numbers and an operation (add, subtract, multiply, divide),
@@ -62,6 +64,9 @@ def main():
         print(f"The result of {operation}ing {num1} and {num2} is: {result}")
     except ValueError as e:
         print(f"Error: {e}")
+
+
+
 
 
 
